@@ -3,69 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>История ЭВМ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#generation">Перейти к поколениям</a>
-    <div>
-        <h2>История ЭВМ</h2>
-        <p>
-            Первые <span>электронные вычислительные машины</span> появились в середине XX века.
-        </p>
-    </div>
-    <div>
-        <p style="background-color: green;">
-            Тег <span style="background-color: yellow;">span</span> используется для выделения части текста внутри строки.
-        </p>
-    </div>
-    <div>
-        <p>
-        <b>ЭВМ</b> — это электронная вычислительная машина.<br>
-        <strong>Важно:</strong> первые ЭВМ занимали целые помещения.
-    </p>
-    
-    <p>
-        <i>Курсивный текст</i> и <em>логически выделенный текст</em>.
-    </p>
-    
-    <p>
-        <s>Устаревшая информация</s>
-    </p>
-    
-    <p>
-        <u>Подчёркнутый текст</u><br>
-        Формула воды: H<sub>2</sub>O<br>
-        Степень числа: 2<sup>3</sup> = 8<br>
-        <small>Мелкий текст для примечаний</small><br>
-        <mark>Выделенный важный фрагмент</mark>
-    </p>
-    
-    <p>
-        Первая строка<br>
-        Вторая строка
-    </p>
- 
-    <p>Пример кода:</p>
-    
-    <code>
-        &lt;h1&gt;История ЭВМ&lt;/h1&gt;
-    </code>
-    </div> 
-    <a href="info.html">
-        <button>Перейти к истории ЭВМ</button>
-    </a>
-    <h2 id="generation">Поколения ЭВМ</h2>
-    <p>Описание поколений электронных вычислительных машин.</p>
-    <img src="img/computer_generation_1.jpg.webp" 
-     alt="ЭВМ ENIAC" 
-     width="300" 
-     height="200">
-     <img src="https://static.tildacdn.com/tild3062-3738-4232-a666-663734633764/_6.jpg"
-      alt="ENIAC"
-      width="300">
-      <img src="img/computer_generation_3.jpg.jpg"
-       alt="Старая вычислительная машина"
-       width="400"
-       loading="lazy">
+    <header>
+        <h1>История развития ЭВМ</h1>
+    </header>
+    <nav>
+        <a href="#gen2">Поколения</a>
+        <a href="media.html">Медиа</a>
+        <a href="forms.html">Формы</a>
+        <a href="vector.html" target="_blank">SVG</a>
+    </nav>
+    <main>
+        <section id="gen1">
+            <h2>Первое поколение ЭВМ</h2>
+            <p>Пример якорной ссылки и текстового блока.</p>
+            <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">ЭВМ первого поколения занимали целые помещения.</blockquote>
+            <cite>Источник: Википедия</cite>
+            <br /><br />
+            <a href="mailto:student@mail.ru">Написать письмо</a>
+            <a href="tel:+79990000000">Позвонить</a>
+            <button class="btn-primary">Кнопка</button>
+
+        </section>
+        <aside>
+            <h3>Фото</h3>
+            <img src="img/computer_generation_1.jpg.webp" alt="1 поколение ЭВМ" height="150" />
+        </aside>
+        <section id="gen2">
+            <h2>Второе поколение ЭВМ</h2>
+            <p>Пример якорной ссылки и текстового блока</p>
+            <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ"> Во втором поколении ЭВМ появились ОС.</blockquote>
+            <cite>Источник: Википедия</cite>
+            <br /><br />
+            <a href="mailto:student@mail.ru">Написать письмо</a>
+            <a href="tel:+79990000000">Позвонить</a>
+            <button>Кнопка</button>
+        </section>
+        <aside>
+            <h3>Фото</h3>
+            <img src="img/computer_generation_2.jpg.jpg" alt="2 поколение ЭВМ" height="150">
+        </aside>
+    </main>
+    <footer>
+        <p title="Подсказка">Лабораторная работа №6 • HTML + CSS</p>
+    </footer>
 </body>
-</html>
